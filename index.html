@@ -3,54 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio | Minimaliste</title>
+    <title>Portfolio | Style Saadze</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <h1>Prénom Nom</h1>
-        <p class="bio">Designer & Développeur basé à Paris. Passionné par les interfaces épurées.</p>
-        <div class="links">
-            <a href="mailto:votre@email.com">Email</a>
-            <a href="https://github.com/votre-pseudo" target="_blank">GitHub</a>
-            <a href="https://twitter.com/votre-pseudo" target="_blank">Twitter</a>
-        </div>
+        <nav>
+            <span class="logo">Saadze</span>
+            <div class="nav-links">
+                <a href="#">Projets</a>
+                <a href="#">Infos</a>
+            </div>
+        </nav>
+        <section class="hero">
+            <h1>Product Designer & Creative Developer</h1>
+            <p>Je construis des interfaces minimalistes et des expériences numériques fluides.</p>
+        </section>
     </header>
 
     <main>
-        <section>
-            <h2>Projets</h2>
-            
-            <div class="project">
-                <span class="year">2024</span>
-                <div class="details">
-                    <a href="#" class="project-title">Nom du Projet 1</a>
-                    <p>Une courte description de ce que vous avez réalisé ici.</p>
+        <section class="grid-projects">
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/800x500" alt="Projet 1">
                 </div>
-            </div>
+                <div class="project-info">
+                    <span class="year">2024</span>
+                    <h3>Application de Finance</h3>
+                    <p>Design d'interface pour une gestion bancaire simplifiée.</p>
+                </div>
+            </article>
 
-            <div class="project">
-                <span class="year">2023</span>
-                <div class="details">
-                    <a href="#" class="project-title">Nom du Projet 2</a>
-                    <p>Développement d'une application minimaliste pour la gestion de tâches.</p>
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/800x500" alt="Projet 2">
                 </div>
-            </div>
+                <div class="project-info">
+                    <span class="year">2024</span>
+                    <h3>Système de Design</h3>
+                    <p>Création d'une bibliothèque de composants réutilisables.</p>
+                </div>
+            </article>
 
-            <div class="project">
-                <span class="year">2023</span>
-                <div class="details">
-                    <a href="#" class="project-title">Nom du Projet 3</a>
-                    <p>Refonte visuelle d'une plateforme e-commerce.</p>
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/800x500" alt="Projet 3">
                 </div>
-            </div>
+                <div class="project-info">
+                    <span class="year">2023</span>
+                    <h3>Plateforme E-commerce</h3>
+                    <p>Optimisation du tunnel d'achat pour une marque de luxe.</p>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/800x500" alt="Projet 4">
+                </div>
+                <div class="project-info">
+                    <span class="year">2023</span>
+                    <h3>Portfolio Archive</h3>
+                    <p>Exploration typographique et mise en page expérimentale.</p>
+                </div>
+            </article>
         </section>
     </main>
 
     <footer>
-        <p>© 2024 — Construit avec simplicité.</p>
+        <div class="footer-content">
+            <p>Disponible pour de nouveaux projets.</p>
+            <div class="socials">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Email</a>
+            </div>
+        </div>
     </footer>
 
 </body>
