@@ -1,0 +1,85 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111111;
+    --secondary-color: #666666;
+    --accent-color: #0070f3;
+    --border-color: #eaeaea;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.bio {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.links a {
+    margin-right: 15px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+}
+
+.year {
+    min-width: 60px;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    padding-top: 4px;
+}
+
+.project-title {
+    font-weight: 600;
+    color: var(--accent-color);
+    text-decoration: none;
+    display: block;
+}
+
+.project-title:hover {
+    text-decoration: underline;
+}
+
+.details p {
+    margin: 5px 0 0 0;
+    font-size: 0.95rem;
+    color: var(--secondary-color);
+}
+
+footer {
+    margin-top: 80px;
+    font-size: 0.8rem;
+    color: #999;
+}
